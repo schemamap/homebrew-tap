@@ -1,7 +1,7 @@
 class Schemamap < Formula
   desc "Instant batch data import for Postgres"
   homepage "https://github.com/schemamap/schemamap"
-  version "0.3.0"
+  version "0.4.1"
   license "MIT"
 
   livecheck do
@@ -11,8 +11,8 @@ class Schemamap < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/schemamap/schemamap/releases/download/v0.3.0/schemamap-x86_64-apple-darwin.zip"
-      sha256 "533de7375c6e4f2c8e43b7841df8518ff3e362aa61e09ed45bf6265b95b81e70"
+      url "https://github.com/schemamap/schemamap/releases/download/v0.4.1/schemamap-x86_64-apple-darwin.zip"
+      sha256 "9a51fabe1da100c4d3ae33ab17b99fd970422e4d5fa6eb0504d6bacf451cdf95"
 
       def install
         bin.install "schemamap"
@@ -20,8 +20,8 @@ class Schemamap < Formula
     end
 
     on_arm do
-      url "https://github.com/schemamap/schemamap/releases/download/v0.3.0/schemamap-aarch64-apple-darwin.zip"
-      sha256 "8ee2b6b88240f73a0569a0c1687b80ccb0f6f45caed4cb1b631012004063ab25"
+      url "https://github.com/schemamap/schemamap/releases/download/v0.4.1/schemamap-aarch64-apple-darwin.zip"
+      sha256 "c95bd1a85b0a670084ecc2077db9bdaecdccfbf7204703d1c8c379980ed36a9a"
 
       def install
         bin.install "schemamap"
@@ -31,8 +31,8 @@ class Schemamap < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/schemamap/schemamap/releases/download/v0.3.0/schemamap-x86_64-unknown-linux-gnu.zip"
-      sha256 "c62e00b6fc6f504494e201e9ecfadd5769608cf86d71787ece0fa8a50172b709"
+      url "https://github.com/schemamap/schemamap/releases/download/v0.4.1/schemamap-x86_64-unknown-linux-gnu.zip"
+      sha256 "6939753ed98876296515c3b0df7810a2495b29263ed7f251be820fb111df91a2"
 
       def install
         bin.install "schemamap"
